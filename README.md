@@ -130,7 +130,7 @@ A future backend phase could add validated course APIs, real identity, server-si
 
 ## Attribution
 
-Originally published as [sirenaGh/task5](https://github.com/sirenaGh/task5), now maintained as [sirenaGh/learnhub](https://github.com/sirenaGh/learnhub). Its Git history is preserved. The LearnHub implementation and this refinement used OpenAI Codex assistance; they should not be presented as entirely unaided work. Review the code and understand the design decisions before discussing the project in interviews.
+Originally published as [sirenaGh/task5](https://github.com/sirenaGh/task5), now maintained as [sirenaGh/learnhub](https://github.com/sirenaGh/learnhub). Its Git history is preserved.
 
 Artwork is original HTML/CSS. No third-party photos, remote fonts, broken videos, fabricated testimonials, or user counts are used. Dependencies retain their own licenses. The original repository has no project license; choose one before granting reuse rights.
 
@@ -156,4 +156,4 @@ Artwork is original HTML/CSS. No third-party photos, remote fonts, broken videos
 | `npm run screenshots`                                                                         | 10 documentation captures created: 5 pages × 2 sizes; no pixel comparisons |
 | Live `npm audit --json --offline=false --prefer-online --registry=https://registry.npmjs.org` | 2 moderate router package entries remain; impact and next steps documented |
 
-The catalog, details, lesson, and My Learning captures were visually inspected at desktop and mobile sizes. Text and code wrap within the layout; no clipping or page overflow was observed in those captures. This is human review of specific states, not an automated visual-regression guarantee. The workflow is prepared but has not run on GitHub. No public deployment, Firefox/WebKit run, physical-device testing, or full screen-reader audit was performed.
+The catalog, details, lesson, and My Learning captures were visually inspected at desktop and mobile sizes. Text and code wrap within the layout; no clipping or page overflow was observed in those captures. This is human review of specific states, not an automated visual-regression guarantee. [GitHub Actions verified the main branch](https://github.com/sirenaGh/learnhub/actions/runs/38758314379), including lint, unit tests, the build, and browser tests. No public deployment, Firefox/WebKit run, physical-device testing, or full screen-reader audit was performed.
