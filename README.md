@@ -1,5 +1,7 @@
 # LearnHub — Learning Platform Frontend
 
+Repository: [sirenaGh/learnhub](https://github.com/sirenaGh/learnhub).
+
 A React portfolio project demonstrating a complete browser-only learning journey: browse → filter → inspect a course → add it to My Learning → read lessons → complete them → restore progress after reload.
 
 This is a frontend demonstration, not a production LMS. The nine courses and instructors are fictional demo content. The React course contains four worked lessons building a small checklist; the other courses remain introductory samples. Estimates include reading and independent practice.
@@ -11,6 +13,8 @@ This is a frontend demonstration, not a production LMS. The nine courses and ins
 Use **Node.js 22.12 or newer** and npm.
 
 ```sh
+git clone https://github.com/sirenaGh/learnhub.git
+cd learnhub
 npm ci
 npm run dev
 ```
@@ -126,7 +130,7 @@ A future backend phase could add validated course APIs, real identity, server-si
 
 ## Attribution
 
-Based on [sirenaGh/task5](https://github.com/sirenaGh/task5), preserving its Git history. The LearnHub implementation and this refinement used OpenAI Codex assistance; they should not be presented as entirely unaided work. Review the code and understand the design decisions before discussing the project in interviews.
+Originally published as [sirenaGh/task5](https://github.com/sirenaGh/task5), now maintained as [sirenaGh/learnhub](https://github.com/sirenaGh/learnhub). Its Git history is preserved.
 
 Artwork is original HTML/CSS. No third-party photos, remote fonts, broken videos, fabricated testimonials, or user counts are used. Dependencies retain their own licenses. The original repository has no project license; choose one before granting reuse rights.
 
@@ -152,4 +156,4 @@ Artwork is original HTML/CSS. No third-party photos, remote fonts, broken videos
 | `npm run screenshots`                                                                         | 10 documentation captures created: 5 pages × 2 sizes; no pixel comparisons |
 | Live `npm audit --json --offline=false --prefer-online --registry=https://registry.npmjs.org` | 2 moderate router package entries remain; impact and next steps documented |
 
-The catalog, details, lesson, and My Learning captures were visually inspected at desktop and mobile sizes. Text and code wrap within the layout; no clipping or page overflow was observed in those captures. This is human review of specific states, not an automated visual-regression guarantee. The workflow is prepared but has not run on GitHub. No public deployment, Firefox/WebKit run, physical-device testing, or full screen-reader audit was performed.
+The catalog, details, lesson, and My Learning captures were visually inspected at desktop and mobile sizes. Text and code wrap within the layout; no clipping or page overflow was observed in those captures. This is human review of specific states, not an automated visual-regression guarantee. [GitHub Actions verified the main branch](https://github.com/sirenaGh/learnhub/actions/runs/38758314379), including lint, unit tests, the build, and browser tests. No public deployment, Firefox/WebKit run, physical-device testing, or full screen-reader audit was performed.
