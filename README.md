@@ -128,6 +128,10 @@ Progress belongs to one browser and origin, without cross-tab/device synchroniza
 
 A future backend phase could add validated course APIs, real identity, server-side authorization, enrollment/progress storage, and cross-device synchronization. Define those contracts before adding accounts.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, change descriptions, verification, and attribution guidelines.
+
 ## Attribution
 
 Originally published as [sirenaGh/task5](https://github.com/sirenaGh/task5), now maintained as [sirenaGh/learnhub](https://github.com/sirenaGh/learnhub). Its Git history is preserved.
